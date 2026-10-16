@@ -1,64 +1,70 @@
-# Validador de Expressões Regulares
+# Regular Expression Validator
 
-Atividade sobre expressões regulares, para validar cadeias utilizando expressões regurales.
+Validador de nome, e-mail, senha, CPF e telefone usando expressões regulares.
+Requer Python 3.12 ou superior e não usa dependências externas.
 
-Os campos implementados são:
-
-- Nome
-- E-mail
-- Senha
-- CPF
-- Telefone
-
-## Regras
-
-- **Nome:** nome e sobrenome separados por um espaço, com iniciais maiúsculas.
-- **E-mail:** apenas letras minúsculas, exatamente um `@` e final `.br`.
-- **Senha:** exatamente oito caracteres, com pelo menos uma letra maiúscula e um número.
-- **CPF:** formato `xxx.xxx.xxx-xx`.
-- **Telefone:** aceita os formatos `(xx) 9xxxx-xxxx`, `(xx) 9xxxxxxxx` e `xx 9xxxxxxxx`.
-
-## Como Executar
-
-Utilize Python 3.12 ou superior.
+## Validar um valor
 
 ```bash
-python main.py name "Alan Turing"
+python3 main.py name "Alan Turing"
+python3 main.py email "divulga@ufpa.br"
+python3 main.py password "ropsSoq0"
+python3 main.py cpf "123.456.789-09"
+python3 main.py phone "(91) 99999-9999"
 ```
 
-Outros exemplos:
+O terminal mostra `ACCEPTED` ou `REJECTED`.
+Para salvar o resultado em um JSON:
 
 ```bash
-python main.py email "divulga@ufpa.br"
-python main.py password "ropsSoq0"
-python main.py cpf "123.456.789-09"
-python main.py phone "(91) 99999-9999"
+python3 main.py cpf "123.456.789-09" --json result.json
 ```
 
-O programa retorna:
+## Testar vários casos
 
-```text
-ACEITO
-```
-
-ou:
-
-```text
-REJEITADO
-```
-
-## Testes
-
-Para executar todos os testes:
+O arquivo `examples/test_cases.txt` contém 100 casos de teste para os cinco
+campos, cada linha usa o formato `field;value;expected`.
+Linhas iniciadas com `#` e linhas vazias são ignoradas, o resultado esperado pode ser `accepted` ou `rejected`.
 
 ```bash
-python -m unittest discover -s tests -v
+python3 main.py batch examples/test_cases.txt --json results.json
 ```
 
-O resultado esperado é:
+O terminal mostra o resultado de cada linha e o resumo dos testes, o JSON
+registra o campo, o valor, o resultado esperado e o resultado obtido.
+
+Para adicionar casos, inclua linhas no arquivo, por exemplos:
 
 ```text
-Ran 10 tests
+name;Alan Turing;accepted
+email;T@teste.br;rejected
+cpf;123.456.789-09;accepted
+```
 
-OK
+## Validar valores interativamente
+
+```bash
+python3 main.py interactive --json session_results.json
+```
+
+Digite o nome do campo para selecioná-lo, depois, digite os valores a serem validados.
+Digite outro nome de campo para trocar a seleção e use `exit` para finalizar e
+salvar os resultados no arquivo JSON.
+
+```text
+> cpf
+cpf> 123.456.789-09
+ACCEPTED
+cpf> phone
+phone> (91) 99999-9999
+ACCEPTED
+phone> exit
+```
+
+Campos disponíveis: `name`, `email`, `password`, `cpf` e `phone`.
+
+## Executar os testes automatizados
+
+```bash
+python3 -m unittest discover -s tests -v
 ```

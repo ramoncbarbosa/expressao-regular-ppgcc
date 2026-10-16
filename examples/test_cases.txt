@@ -1,0 +1,123 @@
+# Format: field;value;expected
+# Fields: name, email, password, cpf, phone
+# Expected values: accepted or rejected
+
+# Name: accepted
+name;Alan Turing;accepted
+name;Noam Chomsky;accepted
+name;Ada Lovelace;accepted
+name;A B;accepted
+name;Maria Silva;accepted
+name;Joao Pessoa;accepted
+name;John Smith;accepted
+name;Z Z;accepted
+name;Aaaaa Bbbbb;accepted
+name;Carlos Drummond;accepted
+
+# Name: rejected
+name;;rejected
+name;1Alan Turing;rejected
+name;Alan;rejected
+name;alan Turing;rejected
+name;Alan turing;rejected
+name;Alan  Turing;rejected
+name;Alan Turing Silva;rejected
+name;João Silva;rejected
+name;Alan-Turing;rejected
+name;Alan1 Turing;rejected
+
+# Email: accepted
+email;a@a.br;accepted
+email;divulga@ufpa.br;accepted
+email;abc@xyz.br;accepted
+email;z@z.br;accepted
+email;nome@dominio.br;accepted
+email;ana@teste.br;accepted
+email;universidade@para.br;accepted
+email;x@y.br;accepted
+email;letras@exemplo.br;accepted
+email;teste@dominio.br;accepted
+
+# Email: rejected
+email;;rejected
+email;@;rejected
+email;a@.br;rejected
+email;T@teste.br;rejected
+email;a@@teste.br;rejected
+email;@teste.br;rejected
+email;a@Teste.br;rejected
+email;a.silva@teste.br;rejected
+email;a@sub.teste.br;rejected
+email;usuario@servidor.com.br;rejected
+
+# Password: accepted
+password;518R2r5e;accepted
+password;F123456A;accepted
+password;1234567T;accepted
+password;ropsSoq0;accepted
+password;Abcdef1g;accepted
+password;A1bcdefg;accepted
+password;0000000A;accepted
+password;zzzzzzZ9;accepted
+password;Xy123abc;accepted
+password;aB2cD3eF;accepted
+
+# Password: rejected
+password;;rejected
+password;F1234567A;rejected
+password;abcdefgH;rejected
+password;1234567HI;rejected
+password;12345678;rejected
+password;abcdefgh;rejected
+password;ABCDEFGH;rejected
+password;Abc!1234;rejected
+password;Abc123;rejected
+password;ábcD1234;rejected
+
+# CPF: accepted (format only; no check-digit calculation)
+cpf;123.456.789-09;accepted
+cpf;000.000.000-00;accepted
+cpf;999.999.999-99;accepted
+cpf;001.002.003-04;accepted
+cpf;111.222.333-44;accepted
+cpf;987.654.321-00;accepted
+cpf;012.345.678-90;accepted
+cpf;555.555.555-55;accepted
+cpf;100.200.300-40;accepted
+cpf;010.010.010-10;accepted
+
+# CPF: rejected
+cpf;;rejected
+cpf;123.456.789-0;rejected
+cpf;111.111.11-11;rejected
+cpf;12345678909;rejected
+cpf;123-456-789.09;rejected
+cpf;123.456.789.09;rejected
+cpf;abc.def.ghi-jk;rejected
+cpf;1234.567.890-12;rejected
+cpf;123.456.789-012;rejected
+cpf;123.456.789 09;rejected
+
+# Phone: accepted
+phone;(91) 99999-9999;accepted
+phone;(91) 999999999;accepted
+phone;91 999999999;accepted
+phone;(11) 91234-5678;accepted
+phone;(21) 99876-5432;accepted
+phone;(31) 912345678;accepted
+phone;(41) 999999999;accepted
+phone;11 912345678;accepted
+phone;21 998765432;accepted
+phone;61 987654321;accepted
+
+# Phone: rejected
+phone;;rejected
+phone;(91) 59999-9999;rejected
+phone;99 99999-9999;rejected
+phone;(94)95555-5555;rejected
+phone;(91) 9999-9999;rejected
+phone;(091) 99999-9999;rejected
+phone;91 99999-9999;rejected
+phone;91999999999;rejected
+phone;(91) 99999 9999;rejected
+phone;(91) 99999999;rejected
