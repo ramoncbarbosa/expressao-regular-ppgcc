@@ -1,6 +1,5 @@
 import unittest
 from collections.abc import Callable
-
 from app.validator import list_fields, validator
 from app.validators import (
     validator_cpf,

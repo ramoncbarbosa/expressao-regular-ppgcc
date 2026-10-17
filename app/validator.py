@@ -1,6 +1,5 @@
 from collections.abc import Callable
 from typing import Final
-
 from app.validators import (
     validator_name,
     validator_email,
