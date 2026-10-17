@@ -1,0 +1,19 @@
+{
+  "mode": "single",
+  "summary": {
+    "total": 1,
+    "accepted": 1,
+    "rejected": 0,
+    "passed": 0,
+    "failed": 0
+  },
+  "results": [
+    {
+      "field": "cpf",
+      "value": "123.456.789-09",
+      "expected": null,
+      "actual": "accepted",
+      "passed": null
+    }
+  ]
+}

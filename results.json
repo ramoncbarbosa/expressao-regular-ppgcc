@@ -1,0 +1,812 @@
+{
+  "mode": "batch",
+  "summary": {
+    "total": 100,
+    "accepted": 50,
+    "rejected": 50,
+    "passed": 100,
+    "failed": 0
+  },
+  "results": [
+    {
+      "line": 6,
+      "field": "name",
+      "value": "Alan Turing",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 7,
+      "field": "name",
+      "value": "Noam Chomsky",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 8,
+      "field": "name",
+      "value": "Ada Lovelace",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 9,
+      "field": "name",
+      "value": "A B",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 10,
+      "field": "name",
+      "value": "Maria Silva",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 11,
+      "field": "name",
+      "value": "Joao Pessoa",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 12,
+      "field": "name",
+      "value": "John Smith",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 13,
+      "field": "name",
+      "value": "Z Z",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 14,
+      "field": "name",
+      "value": "Aaaaa Bbbbb",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 15,
+      "field": "name",
+      "value": "Carlos Drummond",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 18,
+      "field": "name",
+      "value": "",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 19,
+      "field": "name",
+      "value": "1Alan Turing",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 20,
+      "field": "name",
+      "value": "Alan",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 21,
+      "field": "name",
+      "value": "alan Turing",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 22,
+      "field": "name",
+      "value": "Alan turing",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 23,
+      "field": "name",
+      "value": "Alan  Turing",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 24,
+      "field": "name",
+      "value": "Alan Turing Silva",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 25,
+      "field": "name",
+      "value": "João Silva",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 26,
+      "field": "name",
+      "value": "Alan-Turing",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 27,
+      "field": "name",
+      "value": "Alan1 Turing",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 30,
+      "field": "email",
+      "value": "a@a.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 31,
+      "field": "email",
+      "value": "divulga@ufpa.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 32,
+      "field": "email",
+      "value": "abc@xyz.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 33,
+      "field": "email",
+      "value": "z@z.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 34,
+      "field": "email",
+      "value": "nome@dominio.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 35,
+      "field": "email",
+      "value": "ana@teste.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 36,
+      "field": "email",
+      "value": "universidade@para.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 37,
+      "field": "email",
+      "value": "x@y.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 38,
+      "field": "email",
+      "value": "letras@exemplo.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 39,
+      "field": "email",
+      "value": "teste@dominio.br",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 42,
+      "field": "email",
+      "value": "",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 43,
+      "field": "email",
+      "value": "@",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 44,
+      "field": "email",
+      "value": "a@.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 45,
+      "field": "email",
+      "value": "T@teste.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 46,
+      "field": "email",
+      "value": "a@@teste.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 47,
+      "field": "email",
+      "value": "@teste.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 48,
+      "field": "email",
+      "value": "a@Teste.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 49,
+      "field": "email",
+      "value": "a.silva@teste.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 50,
+      "field": "email",
+      "value": "a@sub.teste.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 51,
+      "field": "email",
+      "value": "usuario@servidor.com.br",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 54,
+      "field": "password",
+      "value": "518R2r5e",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 55,
+      "field": "password",
+      "value": "F123456A",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 56,
+      "field": "password",
+      "value": "1234567T",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 57,
+      "field": "password",
+      "value": "ropsSoq0",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 58,
+      "field": "password",
+      "value": "Abcdef1g",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 59,
+      "field": "password",
+      "value": "A1bcdefg",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 60,
+      "field": "password",
+      "value": "0000000A",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 61,
+      "field": "password",
+      "value": "zzzzzzZ9",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 62,
+      "field": "password",
+      "value": "Xy123abc",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 63,
+      "field": "password",
+      "value": "aB2cD3eF",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 66,
+      "field": "password",
+      "value": "",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 67,
+      "field": "password",
+      "value": "F1234567A",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 68,
+      "field": "password",
+      "value": "abcdefgH",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 69,
+      "field": "password",
+      "value": "1234567HI",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 70,
+      "field": "password",
+      "value": "12345678",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 71,
+      "field": "password",
+      "value": "abcdefgh",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 72,
+      "field": "password",
+      "value": "ABCDEFGH",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 73,
+      "field": "password",
+      "value": "Abc!1234",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 74,
+      "field": "password",
+      "value": "Abc123",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 75,
+      "field": "password",
+      "value": "ábcD1234",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 78,
+      "field": "cpf",
+      "value": "123.456.789-09",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 79,
+      "field": "cpf",
+      "value": "000.000.000-00",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 80,
+      "field": "cpf",
+      "value": "999.999.999-99",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 81,
+      "field": "cpf",
+      "value": "001.002.003-04",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 82,
+      "field": "cpf",
+      "value": "111.222.333-44",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 83,
+      "field": "cpf",
+      "value": "987.654.321-00",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 84,
+      "field": "cpf",
+      "value": "012.345.678-90",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 85,
+      "field": "cpf",
+      "value": "555.555.555-55",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 86,
+      "field": "cpf",
+      "value": "100.200.300-40",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 87,
+      "field": "cpf",
+      "value": "010.010.010-10",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 90,
+      "field": "cpf",
+      "value": "",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 91,
+      "field": "cpf",
+      "value": "123.456.789-0",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 92,
+      "field": "cpf",
+      "value": "111.111.11-11",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 93,
+      "field": "cpf",
+      "value": "12345678909",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 94,
+      "field": "cpf",
+      "value": "123-456-789.09",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 95,
+      "field": "cpf",
+      "value": "123.456.789.09",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 96,
+      "field": "cpf",
+      "value": "abc.def.ghi-jk",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 97,
+      "field": "cpf",
+      "value": "1234.567.890-12",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 98,
+      "field": "cpf",
+      "value": "123.456.789-012",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 99,
+      "field": "cpf",
+      "value": "123.456.789 09",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 102,
+      "field": "phone",
+      "value": "(91) 99999-9999",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 103,
+      "field": "phone",
+      "value": "(91) 999999999",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 104,
+      "field": "phone",
+      "value": "91 999999999",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 105,
+      "field": "phone",
+      "value": "(11) 91234-5678",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 106,
+      "field": "phone",
+      "value": "(21) 99876-5432",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 107,
+      "field": "phone",
+      "value": "(31) 912345678",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 108,
+      "field": "phone",
+      "value": "(41) 999999999",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 109,
+      "field": "phone",
+      "value": "11 912345678",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 110,
+      "field": "phone",
+      "value": "21 998765432",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 111,
+      "field": "phone",
+      "value": "61 987654321",
+      "expected": "accepted",
+      "actual": "accepted",
+      "passed": true
+    },
+    {
+      "line": 114,
+      "field": "phone",
+      "value": "",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 115,
+      "field": "phone",
+      "value": "(91) 59999-9999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 116,
+      "field": "phone",
+      "value": "99 99999-9999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 117,
+      "field": "phone",
+      "value": "(94)95555-5555",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 118,
+      "field": "phone",
+      "value": "(91) 9999-9999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 119,
+      "field": "phone",
+      "value": "(091) 99999-9999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 120,
+      "field": "phone",
+      "value": "91 99999-9999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 121,
+      "field": "phone",
+      "value": "91999999999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 122,
+      "field": "phone",
+      "value": "(91) 99999 9999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    },
+    {
+      "line": 123,
+      "field": "phone",
+      "value": "(91) 99999999",
+      "expected": "rejected",
+      "actual": "rejected",
+      "passed": true
+    }
+  ]
+}

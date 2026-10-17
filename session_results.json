@@ -1,0 +1,40 @@
+{
+  "mode": "interactive",
+  "summary": {
+    "total": 4,
+    "accepted": 1,
+    "rejected": 3,
+    "passed": 0,
+    "failed": 0
+  },
+  "results": [
+    {
+      "field": "name",
+      "value": "r4m0n",
+      "expected": null,
+      "actual": "rejected",
+      "passed": null
+    },
+    {
+      "field": "name",
+      "value": "ramon",
+      "expected": null,
+      "actual": "rejected",
+      "passed": null
+    },
+    {
+      "field": "name",
+      "value": "RAMON",
+      "expected": null,
+      "actual": "rejected",
+      "passed": null
+    },
+    {
+      "field": "name",
+      "value": "Ramon Castro",
+      "expected": null,
+      "actual": "accepted",
+      "passed": null
+    }
+  ]
+}
